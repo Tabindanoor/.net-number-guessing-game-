@@ -15,7 +15,7 @@ namespace ConsoleApp1
             // Console.WriteLine(name);
             string appdata = "number guessor";
             string version = "1.0.0";
-            string author = "tabinda noor definitely";
+            string author = "tabinda noor";
             Console.WriteLine("{0} : version {1} by {2}", appdata, version, author);
             Console.ResetColor();
 
@@ -59,7 +59,7 @@ namespace ConsoleApp1
                     if (guess != correct)
                     {
                         Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine("hey you are wrong like always bro");
+                        Console.WriteLine("hey you are wrong");
                         Console.ResetColor();
                     }
 
